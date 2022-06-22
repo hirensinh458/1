@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+		<script>
+			$(document).ready(function(){
+				$("#hide").click(function(){
+					$("ul li:first-child").hide();
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<p>List 1</p>
+		<ul>
+			<li>Apple</li>
+			<li>Banana</li>
+			<li>Mango</li>
+		</ul>
+		<p>List 2</p>
+		<ul>
+			<li>Apple</li>
+			<li>Banana</li>
+			<li>Mango</li>
+		</ul>	
+		<button id="hide">Click Me!</button>
+	</body>
+</html>
